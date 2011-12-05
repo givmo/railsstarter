@@ -12,6 +12,10 @@ gem 'jquery-rails'
 gem 'fog'
 gem 'carrierwave'
 
+group :production do 
+  gem 'thin' # recommended for rails on heroku
+end
+
 group :development do
   gem 'ruby-debug19', :require => 'ruby-debug'
   gem 'heroku'
