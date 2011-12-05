@@ -3,11 +3,14 @@ source 'http://rubygems.org'
 gem 'rails'
 
 gem 'pg'
+gem 'delayed_job'
 gem 'devise'
 gem 'cancan'
 gem 'couch_record', :git => 'git://github.com/givmo/couch_record.git'
 gem 'airbrake'
 gem 'jquery-rails'
+gem 'fog'
+gem 'carrierwave'
 
 group :development do
   gem 'ruby-debug19', :require => 'ruby-debug'
