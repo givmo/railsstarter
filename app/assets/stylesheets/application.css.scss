@@ -5,3 +5,16 @@
  *= require_self
  *= require_tree . 
 */
+
+
+@import "normalize.css.scss";
+
+@import "variables.css.scss";
+@import "mixins.css.scss";
+
+@import "scaffolding.css.scss";
+
+@import "type.css.scss";
+@import "forms.css.scss";
+@import "tables.css.scss";
+@import "patterns.css.scss";

@@ -44,5 +44,8 @@ module Railsstarter
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    config.assets.initialize_on_precompile = false # don't access the DB or load models when precompiling your assets.
+    
   end
 end
