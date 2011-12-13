@@ -46,7 +46,7 @@ namespace :deploy do
   task :migrate do
     puts color YELLOW, 'Migrating Heroku'
 
-    run 'heroku run rake db:migrate'
+    run 'heroku run rake db'
   end
 
 end
